@@ -31,11 +31,6 @@ public class SparkDemo {
 //        spark.sql("INSERT INTO local.iceberg_db.table VALUES (7, 'g'), (8, 'h'), (9, 'i')");
 //        Dataset<Row> result = spark.sql("select * from local.iceberg_db.table");
 //        result.show();
-//
-//        ali.oss.endpoint=http://oss-cn-hangzhou.aliyuncs.com/
-//        ali.oss.access-key-id=LTAIN6kxH2XYKBHE
-//        ali.oss.access-key-secret=hkHaDmW0tvnhWZvFjLbdu9FtMdiX0r
-//        ali.oss.bucket-name=tob-test-oss
 
 
 //        'spark.sql.catalog.demo', 'org.apache.iceberg.spark.SparkCatalog').config(
