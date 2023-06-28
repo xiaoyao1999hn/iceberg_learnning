@@ -84,9 +84,9 @@ public class SparkDemo {
                 .config("spark.sql.catalog.demo.io-impl", "org.apache.iceberg.aliyun.oss.OSSFileIO")
                 .config("spark.sql.catalog.demo.hadoop.fs.oss.warehouse", "oss://iceberg_warehouse")
 
-                .config("spark.sql.catalog.demo.hadoop.fs.oss.endpoint", "http://oss-cn-hangzhou.aliyuncs.com/")
-                .config("spark.sql.catalog.demo.hadoop.fs.oss.access.key.id", "LTAIN6kxH2XYKBHE")
-                .config("spark.sql.catalog.demo.hadoop.fs.oss.access.key.secret", "hkHaDmW0tvnhWZvFjLbdu9FtMdiX0r")
+                .config("spark.sql.catalog.demo.hadoop.fs.oss.endpoint", "")
+                .config("spark.sql.catalog.demo.hadoop.fs.oss.access.key.id", "")
+                .config("spark.sql.catalog.demo.hadoop.fs.oss.access.key.secret", "")
                 .getOrCreate();
 
         spark.sql("create database iceberg_db");
